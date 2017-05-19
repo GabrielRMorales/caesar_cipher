@@ -19,6 +19,7 @@ empty=""
     end    
   end
   puts empty
+  empty
 end
 
-caesar_cipher("What a string!", 5)
+#caesar_cipher("What a string!", 5)
