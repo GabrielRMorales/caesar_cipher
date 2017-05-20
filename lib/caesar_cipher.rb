@@ -8,7 +8,7 @@ empty=""
   
     if (x.match(/^[[:alpha:]]$/))
     	x=x.ord+shift_factor%26
-      if (x>90&&x<97)||(x>123)
+      if (x>90&&x<97)||(x>122)
         empty+=(x-26).chr
       else
         empty+=x.chr
@@ -18,8 +18,6 @@ empty=""
 
     end    
   end
-  puts empty
   empty
 end
 
-#caesar_cipher("What a string!", 5)
